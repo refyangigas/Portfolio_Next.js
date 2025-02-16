@@ -17,10 +17,9 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      A versatile Full-Stack Developer based in Probolinggo, with expertise in both web and mobile development. Proficient in crafting robust solutions using Laravel, PHP, JavaScript, and Flutter, while seamlessly integrating various database technologies like MySQL and NoSQL. Passionate about building scalable applications and transforming complex requirements into user-friendly digital experiences. Combines technical expertise with problem-solving skills to deliver efficient and innovative software solutions.
     </>
-  ),
+  )
 };
 
 const social = [
@@ -52,13 +51,13 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Web & Mobile Developer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Refyan Gigas, a Full-Stack Developer at <InlineCode>Coding.in</InlineCode>, specializing in web
+      <br /> and mobile development. I'm passionate about building innovative digital solutions.
     </>
-  ),
+  )
 };
 
 const about = {
@@ -76,16 +75,18 @@ const about = {
     display: true,
     link: "https://cal.com",
   },
+  resume: {
+    display: true,
+    link: "/files/resume.pdf"
+  },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        A versatile Full-Stack Developer based in Probolinggo, with expertise in both web and mobile development. Proficient in crafting robust solutions using Laravel, PHP, JavaScript, and Flutter, while seamlessly integrating various database technologies like MySQL and NoSQL. Passionate about building scalable applications and transforming complex requirements into user-friendly digital experiences. Combines technical expertise with problem-solving skills to deliver efficient and innovative software solutions.
       </>
-    ),
+    )
   },
   work: {
     display: true, // set to false to hide this section
