@@ -139,8 +139,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Jember State Polytechnic",
+        description: <>Studied Web & Mobile Development.</>,
       },
       {
         name: "Build the Future",
