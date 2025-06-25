@@ -54,7 +54,7 @@ const home = {
   headline: <>Web & Mobile Developer</>,
   subline: (
     <>
-      I'm Refyan Gigas, a Full-Stack Developer at <InlineCode>Coding.in</InlineCode>, specializing in web
+      I'm Refyan Gigas, a Full-Stack Developer , specializing in web
       <br /> and mobile development. I'm passionate about building innovative digital solutions.
     </>
   )
@@ -93,23 +93,24 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "TOSEPATU",
+        timeframe: "2022 - 2023",
+        role: "Staff IT",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Building web development
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Building UI for websites
+          </>,
+          <>
+            Performing application testing using black box methods to ensure optimal quality and performance
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/tosepatu.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -117,20 +118,62 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Dinas Pemberdayaan Perempuan Perlindungan Anak dan Keluarga Berencana (PPPAKB) Kabupaten Jember",
+        timeframe: "2023 - 2024",
+        role: "Administrative assistant",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Responsible for managing administrative documents and archiving.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Skilled in data entry and record-keeping to maintain accurate and up-to-date information.
           </>,
+          <>
+            Capable of providing administrative support to team members and management
+          </>,
+          <>
+            Responsible for maintaining the agency's website
+          </>
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/aset dpppakb.png",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Coding.in",
+        timeframe: "Jan 2025 - Mar 2025",
+        role: "Web & Mobile Developer",
+        achievements: [
+          <>
+            Developed and maintained web applications using the Laravel framework and PHP programming language, ensuring robust and scalable
+back-end solutions.
+          </>,
+          <>
+            Built cross- platform mobile applications using the Flutter framework and Dart programming language, delivering seamless user
+experiences across devices.
+          </>,
+          <>
+            Conducted debugging, testing, and optimization of applications to ensure high performance, stability, and compliance with industry
+standards.
+          </>,
+          <>
+            Designed and implemented responsive and user-friendly UI/UX for both web and mobile platforms, enhancing customer satisfaction and
+usability
+          </>
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/aset dpppakb.png",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -141,10 +184,6 @@ const about = {
       {
         name: "Jember State Polytechnic",
         description: <>Studied Web & Mobile Development.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
