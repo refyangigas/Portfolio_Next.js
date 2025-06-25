@@ -192,18 +192,18 @@ usability
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Laravel",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/laravel.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/laravel-1.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -211,12 +211,12 @@ usability
         ],
       },
       {
-        title: "Next.js",
+        title: "MySQL",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/mysql.png",
             alt: "Project image",
             width: 16,
             height: 9,
